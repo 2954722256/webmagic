@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  ssl:
+    enabled: false
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+  datasource:
+    url: jdbc:mysql://cdb-kp8yzxc8.bj.tencentcdb.com:10035/webmagic?characterEncoding=utf8&useSSL=true
+    username: webmagic
+    password: webmagic
+    driver-class-name: com.mysql.jdbc.Driver
